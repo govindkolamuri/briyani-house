@@ -1,0 +1,70 @@
+.home-page {
+  width: 100%;
+}
+.hero-content {
+  max-width: 750px;
+}
+
+.hero-content h1 {
+  font-size: 37px;
+  color: #ffb02e;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.order-btn {
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #252525;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffad24;
+  padding: 10px 20px;
+  transform: 0.5s;
+}
+
+.order-btn:hover {
+  background-color: #ffffff;
+  transform: scale(1.3);
+}
+
+.hero {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  background: linear-gradient(135deg, #2b160c, #63351b, #a45b24);
+  color: #ffffff;
+}
+
+.popular-items {
+  padding: 50px 30px;
+  text-align: center;
+  background-color: #fffaf2;
+}
+
+.popular-items h2 {
+  font-size: 32px;
+  color: #63351b;
+  margin-bottom: 35px;
+}
+
+.food-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
